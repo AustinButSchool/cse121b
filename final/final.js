@@ -7,6 +7,7 @@ const firstInput = document.getElementById("answer1");
 const secondInput = document.getElementById("answer2");
 const thirdInput = document.getElementById("answer3");
 const link = document.getElementById("link");
+const linkImage = document.getElementById("linkImage");
 
 const riddlesElement = document.getElementById("riddle");
 let riddleList = [];
@@ -34,6 +35,7 @@ finishButton.addEventListener("click", () => {
     link.style.backgroundColor = "cornflowerblue";
     link.textContent =
       "Your surprise!: \n https://www.youtube.com/watch?v=YQpLNCRIxWA";
+    linkImage.src = "2019-02-20.png";
   }
 });
 
